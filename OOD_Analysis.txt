@@ -1,0 +1,21 @@
+Professional
+    :members:
+      String getName
+      Vector<String> qualifications
+    :methods:
+      String getName()
+      void addQualification(String name)
+      String [] getQualifications()
+      boolean hasQualification(String name)
+
+Vector
+    :members:
+      protected int elementCount
+    :methods:
+      Object clone()
+      
+String
+    :members:
+      static Comparator<String> CASE_INSENSITIVE_ORDER
+    :methods:
+      char charAt(int index)
